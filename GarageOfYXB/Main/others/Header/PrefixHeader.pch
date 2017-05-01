@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  GarageOfYXB
+//
+//  Created by 周继洋 on 16/9/22.
+//  Copyright © 2016年 JasonXu. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "XXYCache.h"
+#import "UIView+Common.h"
+#import "NSString+Common.h"
+#import "UIColor+XXYExtension.h"
+
+#import "GarageOfYXBConfig.h"
+
+#endif
