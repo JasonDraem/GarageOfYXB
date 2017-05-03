@@ -73,6 +73,13 @@
 		963189D21DBE05C3005D107E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 963189D11DBE05C3005D107E /* libz.tbd */; };
 		963189D61DBE05F1005D107E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963189D51DBE05F0005D107E /* UserNotifications.framework */; };
 		963189D81DBE060F005D107E /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 963189D71DBE060F005D107E /* libresolv.tbd */; };
+		9662FD5A1EB96FB300545630 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662FD531EB96FB300545630 /* login.png */; };
+		9662FD5B1EB96FB300545630 /* login2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662FD541EB96FB300545630 /* login2.png */; };
+		9662FD5C1EB96FB300545630 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662FD551EB96FB300545630 /* 3.png */; };
+		9662FD5D1EB96FB300545630 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662FD561EB96FB300545630 /* 4.png */; };
+		9662FD5E1EB96FB300545630 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662FD571EB96FB300545630 /* 5.png */; };
+		9662FD5F1EB96FB300545630 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662FD581EB96FB300545630 /* 6.png */; };
+		9662FD601EB96FB300545630 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662FD591EB96FB300545630 /* 7.png */; };
 		9665466D1D9B645900C6C77D /* YXBManagerFinishedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9665466C1D9B645900C6C77D /* YXBManagerFinishedView.m */; };
 		9665466F1D9B684E00C6C77D /* horn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9665466E1D9B684E00C6C77D /* horn.png */; };
 		966546721D9B6F5000C6C77D /* YXBManagerFinishedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966546711D9B6F5000C6C77D /* YXBManagerFinishedDetailViewController.m */; };
@@ -277,6 +284,13 @@
 		963189D31DBE05CE005D107E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		963189D51DBE05F0005D107E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		963189D71DBE060F005D107E /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		9662FD531EB96FB300545630 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		9662FD541EB96FB300545630 /* login2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login2.png; sourceTree = "<group>"; };
+		9662FD551EB96FB300545630 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		9662FD561EB96FB300545630 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		9662FD571EB96FB300545630 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		9662FD581EB96FB300545630 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		9662FD591EB96FB300545630 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		9665466B1D9B645900C6C77D /* YXBManagerFinishedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBManagerFinishedView.h; sourceTree = "<group>"; };
 		9665466C1D9B645900C6C77D /* YXBManagerFinishedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBManagerFinishedView.m; sourceTree = "<group>"; };
 		9665466E1D9B684E00C6C77D /* horn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horn.png; sourceTree = "<group>"; };
@@ -535,6 +549,7 @@
 		80C3C31F1D93D7320014E89C /* ImageSource */ = {
 			isa = PBXGroup;
 			children = (
+				9662FD521EB96FA600545630 /* 效果图 */,
 				96FF0F1F1DBF42D50050CEBF /* icon1 */,
 				96FF0EFC1DBF057C0050CEBF /* Pushguide */,
 				969E32BD1DBDD096002B8AE5 /* icon */,
@@ -874,6 +889,20 @@
 				960F98E91D9CE84900858920 /* YXBInputPriceAlertView.m */,
 			);
 			path = YXBInputPriceAlertView;
+			sourceTree = "<group>";
+		};
+		9662FD521EB96FA600545630 /* 效果图 */ = {
+			isa = PBXGroup;
+			children = (
+				9662FD531EB96FB300545630 /* login.png */,
+				9662FD541EB96FB300545630 /* login2.png */,
+				9662FD551EB96FB300545630 /* 3.png */,
+				9662FD561EB96FB300545630 /* 4.png */,
+				9662FD571EB96FB300545630 /* 5.png */,
+				9662FD581EB96FB300545630 /* 6.png */,
+				9662FD591EB96FB300545630 /* 7.png */,
+			);
+			path = "效果图";
 			sourceTree = "<group>";
 		};
 		966546751D9B9A6700C6C77D /* YXBMBProgressHudTool */ = {
@@ -1255,6 +1284,7 @@
 				960F98DF1D9CB4F500858920 /* factory.jpg in Resources */,
 				969E32DC1DBDD0B7002B8AE5 /* iconiPhoneSpootlight5_29pt@2x.png in Resources */,
 				969E32CF1DBDD0B7002B8AE5 /* iconiPadApp_76pt.png in Resources */,
+				9662FD5D1EB96FB300545630 /* 4.png in Resources */,
 				96BAC4721D97B5DD00215055 /* timeVLine.png in Resources */,
 				969BED6E1DAB8118006E01BF /* start_normal.png in Resources */,
 				80C3C3851D94022F0014E89C /* manager_normal.png in Resources */,
@@ -1262,6 +1292,8 @@
 				80C3C34D1D93ED2A0014E89C /* Images.xcassets in Resources */,
 				969E32D31DBDD0B7002B8AE5 /* iconiPadProApp_83.5pt@2x.png in Resources */,
 				80C3C3891D94022F0014E89C /* order_normal.png in Resources */,
+				9662FD5A1EB96FB300545630 /* login.png in Resources */,
+				9662FD5B1EB96FB300545630 /* login2.png in Resources */,
 				96FF0F3E1DBF42D50050CEBF /* icon1iPhoneNotification_20pt@2x.png in Resources */,
 				96FF0F371DBF42D50050CEBF /* icon1iPadProApp_83.5pt@2x.png in Resources */,
 				80C3C3491D93EA620014E89C /* customerLanugh.png in Resources */,
@@ -1274,12 +1306,15 @@
 				9665466F1D9B684E00C6C77D /* horn.png in Resources */,
 				96FF0F3F1DBF42D50050CEBF /* icon1iPhoneNotification_20pt@3x.png in Resources */,
 				80C3C3561D93EEA90014E89C /* langchImage_01iPhonePortraitiOS56_320x480pt.png in Resources */,
+				9662FD601EB96FB300545630 /* 7.png in Resources */,
 				969E32D01DBDD0B7002B8AE5 /* iconiPadApp_76pt@2x.png in Resources */,
 				969E32DE1DBDD0B7002B8AE5 /* iconiPhoneSpootlight7_40pt@2x.png in Resources */,
 				80C3C3831D94022F0014E89C /* bussness_normal.png in Resources */,
 				96FF0F3D1DBF42D50050CEBF /* icon1iPhoneApp_60pt@3x.png in Resources */,
+				9662FD5C1EB96FB300545630 /* 3.png in Resources */,
 				96FF0F3B1DBF42D50050CEBF /* icon1iPadSpootlight7_40pt@2x.png in Resources */,
 				96BAC46E1D97A15100215055 /* YXBOrderTableViewCell.xib in Resources */,
+				9662FD5E1EB96FB300545630 /* 5.png in Resources */,
 				80C3C3841D94022F0014E89C /* bussness_selected.png in Resources */,
 				96BAC4701D97A69600215055 /* location.png in Resources */,
 				969E32DB1DBDD0B7002B8AE5 /* iconiPhoneNotification_20pt@3x.png in Resources */,
@@ -1290,6 +1325,7 @@
 				96BAC45C1D97736A00215055 /* factory.png in Resources */,
 				96BAC4621D977FB900215055 /* StarsForeground.png in Resources */,
 				969E32D51DBDD0B7002B8AE5 /* iconiPadSpootlight5_29pt@2x.png in Resources */,
+				9662FD5F1EB96FB300545630 /* 6.png in Resources */,
 				96BAC4681D9789DA00215055 /* YXBGarageMineTableViewCell.xib in Resources */,
 				80C3C3861D94022F0014E89C /* manager_selected.png in Resources */,
 				96BAC4741D97B68200215055 /* navitationbar.png in Resources */,
